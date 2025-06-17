@@ -24,7 +24,7 @@ export const Example03 = () => {
     setform(prevState =>
       // Utilizamos 'structuredClone' para crear una copia profunda del estado anterior.
       // Esto asegura que no estamos modificando el estado directamente.
-      structuredClone({
+      ({
         ...prevState, // Copiamos todas las propiedades del estado anterior.
         [event.target.name]: event.target.value, // Actualizamos la propiedad correspondiente al input que cambió.
       })
