@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 
 export const Example03useEffect = () => {
   const [toggle, setToggle] = useState(false);
-
   const [number, setNumber] = useState(0);
 
   useEffect(() => {
