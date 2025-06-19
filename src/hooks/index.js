@@ -7,3 +7,7 @@ export * from './01-useState/04-example';
 export * from './02-useEffect/01-example';
 export * from './02-useEffect/03-example';
 export * from './02-useEffect/04-exmaple';
+
+//* Example useReducer
+export * from './03-useReducer/01-Example';
+export * from './03-useReducer/02-Example';

@@ -90,6 +90,26 @@ input {
   }
 }
 
+.card-wrapper.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card-wrapper {
+  margin-block-start: 1rem;
+  width: 100%;
+  max-width: 600px;
+  border: solid 1px rgba(243, 243, 243, 0.486);
+  background-color: #1a1a1af3;
+  border-radius: .4rem;
+  padding-inline: 1rem;
+
+  & .card-title {
+    text-wrap: balance;
+    color: hsla(216, 18%, 89%, 0.836);
+  }
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
