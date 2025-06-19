@@ -25,8 +25,8 @@ const App = () => {
       {/* <Exmaple04useEffect /> */}
 
       {/* useReducer */}
-      {/* <Example01useReducer /> */}
-      <Example02useReducer />
+      <Example01useReducer />
+      {/* <Example02useReducer /> */}
     </>
   );
 };
